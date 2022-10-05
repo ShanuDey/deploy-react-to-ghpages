@@ -1,4 +1,4 @@
-name: "Deploy react app to github pages"
+name: "Deploy react application to github pages with gh-pages"
 description: "This action will automate the process of building and deploying react app in gh-pages branch."
 author: "tanwanimohit and ShanuDey"
 
