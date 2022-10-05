@@ -1,12 +1,12 @@
 ## Deploy React app to gh-pages 
 
-This Action will automate the process of building and depolying react app to gh-pages.
+This Action will automate the process of building and deploying react app to gh-pages.
 
 ## Action 
 Add this action inside your Repository's Actions
 
 ```
-name: React app deployement
+name: React app deployment
 
 on:
   push:
