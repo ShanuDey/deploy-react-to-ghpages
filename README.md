@@ -11,17 +11,15 @@ name: React app deployment
 on:
   push:
     branches: [ master ]
-  pull_request:
-    branches: [ master ]
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
     
     steps:
     - uses: actions/checkout@v2
 
-    - name: Deploy react app to github pages
-      uses: tanwanimohit/deploy-react-to-ghpages@v1.0.1
+    - name: Deploy react application to github pages with gh-pages
+      uses: ShanuDey/deploy-react-to-ghpages@v1.0
+
 ```
